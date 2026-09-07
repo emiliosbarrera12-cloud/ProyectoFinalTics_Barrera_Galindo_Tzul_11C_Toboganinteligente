@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final - TICS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Menú de Navegación -->
+    <header>
+        <div class="logo">🚀 Mi Proyecto Final</div>
+        <nav>
+            <a href="#inicio">Inicio</a>
+            <a href="#circuito">Circuito</a>
+            <a href="#documento">Documento</a>
+            <a href="#infografia">Infografía</a>
+            <a href="#podcast">Podcast</a>
+        </nav>
+    </header>
+
+    <!-- Sección de Inicio / Portada -->
+    <section id="inicio" class="hero">
+        <h1>Bienvenido a mi Landing Page</h1>
+        <p>Proyecto Final de TICS - Explora cada uno de los apartados a continuación.</p>
+        <a href="#circuito" class="btn">Empezar a explorar</a>
+    </section>
+
+    <!-- Apartado 1: Circuito -->
+    <section id="circuito" class="section-card">
+        <div class="content-box">
+            <h2>⚡ Circuito</h2>
+            <p>A continuación se muestra el video demostrativo del funcionamiento del circuito:</p>
+            
+            <video controls class="media-element">
+                <source src="./RECURSOS/circuito.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+        </div>
+    </section>
+
+    <!-- Apartado 2: Documento de Word / PDF -->
+    <section id="documento" class="section-card alt-bg">
+        <div class="content-box">
+            <h2>📄 Documento de Word</h2>
+            <p>Puedes consultar o descargar el documento de investigación del proyecto:</p>
+            
+            <a href="./documento.pdf" class="action-btn" target="_blank">📥 Descargar / Ver Documento</a>
+        </div>
+    </section>
+
+    <!-- Apartado 3: Infografía -->
+    <section id="infografia" class="section-card">
+        <div class="content-box">
+            <h2>📊 Infografía</h2>
+            <p>Resumen visual y esquemático del proyecto:</p>
+            
+            <img src="./infografia.png" alt="Infografía del proyecto" class="media-element">
+        </div>
+    </section>
+
+    <!-- Apartado 4: Podcast -->
+    <section id="podcast" class="section-card alt-bg">
+        <div class="content-box">
+            <h2>🎙️ Podcast</h2>
+            <p>Escucha la explicación en audio sobre el desarrollo y conclusiones:</p>
+            
+            <audio controls class="audio-element">
+                <source src="./podcast.mp3" type="audio/mp3">
+                Tu navegador no soporta la reproducción de audio.
+            </audio>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 - Proyecto Final TICS. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
