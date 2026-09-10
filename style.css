@@ -112,38 +112,23 @@ header nav a:hover {
     margin-bottom: 20px;
 }
 
-/* Control estricto de tamaño para videos e imágenes */
+/* Elementos Multimedia adaptados (Videos e Infografías sin bordes negros) */
 .media-element {
-    width: 100%;          /* Ocupa el ancho de la caja */
-    max-height: 350px;    /* Limita la altura máxima para que no sea gigantesco */
-    object-fit: contain;  /* Muestra el video completo sin recortar nada */
-    background-color: #000; /* Fondo negro por si el video tiene proporciones distintas */
+    width: 100%;
+    height: auto;
+    max-height: none;
+    object-fit: contain;
+    background-color: transparent;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
     margin-top: 20px;
+    display: block;
 }
 
 /* Reproductor de audio */
 .audio-element {
     width: 100%;
     margin-top: 20px;
-}
-
-/* Botón de acción (para el documento) */
-.action-btn {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 12px 25px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-    margin-top: 15px;
-    transition: background 0.3s;
-}
-
-.action-btn:hover {
-    background-color: #2980b9;
 }
 
 /* Footer */
